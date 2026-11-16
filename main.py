@@ -1,6 +1,6 @@
 import json,os,sys,urllib.request,urllib.error
 E=os.environ["MAKEFUN_ENV_URL"]
-V={"p":1,"n":3,"b":3,"r":5,"q":9,"k":100};N=[0]
+V={"p":2,"n":3,"b":3,"r":5,"q":9,"k":100};N=[0]
 def post(p,b={}):
  r=urllib.request.Request(E+p,json.dumps(b).encode(),{"ct":"ap/json"})
  try:
