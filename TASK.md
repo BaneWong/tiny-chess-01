@@ -8,6 +8,10 @@
 
 ## 1. 题面摘要
 
+**prerequisites**: Node.js 22.18+（CLI）、Python 3.13（引擎）、Git（仓库）、桌面浏览器（make.fun 登录）。本机全部满足。
+
+**deliverables**: main.py（≤4096B 国际象棋引擎）、LICENSE（MIT）、README.md、.makefun/owner.json
+
 **目标**: 用 ≤4096 字节 Python 3.13 标准库写一个国际象棋引擎，在 make.fun 赏金中击败 8 个 house 引擎。
 
 **House 引擎（按强度排序）**:
